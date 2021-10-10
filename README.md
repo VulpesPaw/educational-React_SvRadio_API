@@ -11,6 +11,6 @@ This small project will include:
 - Custom fonts with ligeratues
 
 ### Note
-Custom font on local host may require the host to install said fonts locally
+Custom fonts on localhost may require the host to install said fonts locally
 #
 Cheers FoxPaw

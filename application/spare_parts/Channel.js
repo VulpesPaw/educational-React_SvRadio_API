@@ -33,11 +33,13 @@ export default function Channel({ channel }) {
                         {channel.tagline}
                     </a>
                 </div>
-                <audio src='https://http-live.sr.se/p3-mp3-128' preload='metadata' controls></audio>
+                {console.log(channel.liveaudio)}
+                <audio src={channel.liveaudio.url} preload='metadata' controls></audio>
             </div>
         </>
     );
 }
+//! ADUIO ARE NOT DYNAMIC, ITS WITH ONE ID!!
 // event.target.toggleClass('display_none');
 // look at signal.
 // find onClick={(evnet)=>increaseCounter}
