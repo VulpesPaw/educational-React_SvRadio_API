@@ -4,9 +4,13 @@ A React project utilising the API from the Swedish Nation Radio.
 ## About
 This small project will include:
 - React
-- API managment, through React
+- API management, through React
 - CSS, in combination with React
+- React Routes
+- React Contex
+- Custom fonts with ligeratues
 
-
+### Note
+Custom font on local host may require the host to install said fonts locally
 #
 Cheers FoxPaw
