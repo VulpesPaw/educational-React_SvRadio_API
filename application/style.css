@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+
+    /* This is needed for each tag for the specific text to activate specific ligertures */
+    margin: 0;
+    font-variant-ligatures: discretionary-ligatures;
+    padding: 0;
+}
+body {
+    font-family: 'Vollkorn';
+    background-color: #333;
+}
+.flex {
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 1em; */
+    flex-wrap: wrap;
+}
+.flex_item {
+    /* flex: 2 20 10em; */
+    flex: 5 20em 10em;
+    background-color: #383838;
+    padding: 1em;
+    margin: 1em;
+    min-width: 30vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex_channel {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    flex: 1;
+}
+.flex_channel_item {
+    flex: 1;
+    /* background-color: #383838; */
+    padding: 1em;
+    max-width: 40vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main_content{
+    padding: 5em;
+}
+
+.channel_title{
+    font-family: 'Vollkorn';
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('./fonts/Vollkorn-SemiBold.otf'), format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('./fonts/Vollkorn-SemiBoldItalic.otf'), format('opentype');
+    font-weight: normal;
+    font-style: italic;
+    /* http://vollkorn-typeface.com/ */
+}
