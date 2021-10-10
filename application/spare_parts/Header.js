@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function Header() {
     return (
-        <div>
-            <h2>Top page lets go!</h2>
-        </div>
-    )
+        <>
+            <h1 className='center_text header dsc-lgt'>∴ Swedish Radio Api -.- React ∴ </h1>
+        </>
+    );
 }

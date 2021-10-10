@@ -3,7 +3,6 @@
 
     /* This is needed for each tag for the specific text to activate specific ligertures */
     margin: 0;
-    font-variant-ligatures: discretionary-ligatures;
     padding: 0;
 }
 body {
@@ -18,58 +17,105 @@ body {
 }
 .flex_item {
     /* flex: 2 20 10em; */
-    flex: 5 20em 10em;
+    /* flex: 40 2 20em; */
+    flex: 1;
     background-color: #383838;
     padding: 1em;
     margin: 1em;
-    min-width: 30vw;
+    min-width: 25vw;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-
+.header {
+    margin: 3em 3em 0 3em;
+}
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
+.dsc-lgt {
+    font-variant-ligatures: discretionary-ligatures;
+}
+a {
+    text-decoration: none;
+    color: #ddd;
+}
+a:hover {
+    text-decoration: underline;
+}
 .flex_channel {
     display: flex;
     flex-direction: column;
     margin: 1em;
-    flex: 1;
+    max-width: 20vw;
+    flex: 1 2 40em;
+    color: #ddd;
 }
 .flex_channel_item {
     flex: 1;
     /* background-color: #383838; */
     padding: 1em;
-    max-width: 40vw;
+    max-width: 30vw;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.main_content{
-    padding: 5em;
+.main_content {
+    justify-content: center;
+    padding: 5vw;
 }
 
-.channel_title{
+.channel_title {
     font-family: 'Vollkorn';
+}
+.channel_text {
+    padding: 0 2em 2em 2em;
+    height: 3em;
+    text-overflow: ellipsis;
+}
+.center_text {
+    text-align: center;
+}
+.display_none {
+    /* display: none; */
+    visibility: collapse;
+    /* white-space: nowrap; */
+    /* overflow-x: hidden; */
 }
 
 @font-face {
     font-family: 'Vollkorn';
-    src: url('./fonts/Vollkorn-SemiBold.otf'), format('opentype');
+    src: url('../fonts/Vollkorn-SemiBold.otf'), format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url('./fonts/Vollkorn-SemiBoldItalic.otf'), format('opentype');
+    src: url('../fonts/Vollkorn-SemiBoldItalic.otf'), format('opentype');
     font-weight: normal;
     font-style: italic;
+
     /* http://vollkorn-typeface.com/ */
+}
+@media (max-width: 80rem) {
+    /* * {
+        background-color: #222;
+    } */
+    .flex_channel {
+        max-width: 60vw;
+    }
+}
+@media (max-width: 40rem) {
+    /* * {
+        background-color: #111;
+    } */
+    .flex_channel {
+        max-width: 70vw;
+    }
 }
