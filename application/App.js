@@ -15,7 +15,9 @@ export default function App() {
 
     // fetches API data
     useEffect(async () => {
-        let data = await fetch('https://api.sr.se/api/v2/channels/?format=json');
+        let data = await fetch(
+            'https://api.sr.se/api/v2/channels/?format=json'
+        );
         // turns data-string to json-object
         let radio_object = await data.json();
         //exctracrs channeles from data-object

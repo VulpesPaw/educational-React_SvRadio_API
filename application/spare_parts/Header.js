@@ -7,6 +7,7 @@ export default function Header() {
             <h1 className='center_text header dsc-lgt'>∴ Swedish Radio Api -.- React ∴ </h1>
 
             <nav className='center_text dsc-lgt flex'>
+                {/* Navigation links for Router element */}
                 <Link to='/' className='flex_item'>
                     Homepage
                 </Link>
