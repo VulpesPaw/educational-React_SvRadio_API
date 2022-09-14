@@ -98,6 +98,9 @@ nav {
     margin: 0;
     padding: 0;
 }
+h1{
+    color: #ddd;
+}
 @font-face {
     font-family: 'Vollkorn';
     src: url('../fonts/Vollkorn-SemiBold.otf'), format('opentype');

@@ -8,13 +8,13 @@ export default function Header() {
 
             <nav className='center_text dsc-lgt flex'>
                 {/* Navigation links for Router element */}
-                <Link to='/' className='flex_item'>
+                <Link to='/pieces/004_react_sv_api/application/' className='flex_item'>
                     Homepage
                 </Link>
                 <p className='flex_item ' id='f0'>
                     -.-
                 </p>
-                <Link to='/about' className='flex_item'>
+                <Link to='/pieces/004_react_sv_api/application/about' className='flex_item'>
                     About
                 </Link>
             </nav>

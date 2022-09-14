@@ -34,11 +34,11 @@ export default function App() {
                 <Header></Header>
                 <Switch>
                     {/* 'exact path' is needed do tell React to use exalctly the '/' route */}
-                    <Route exact path='/'>
+                    <Route exact path='/pieces/004_react_sv_api/application'>
                         <Main></Main>
                     </Route>
 
-                    <Route path='/about'>
+                    <Route exact path='/pieces/004_react_sv_api/application/about'>
                         <About></About>
                     </Route>
                     <Footer></Footer>
