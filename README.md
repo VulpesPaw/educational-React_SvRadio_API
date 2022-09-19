@@ -23,7 +23,8 @@ The task at hand was to build a front-end utilizing our newly learned *React* kn
 
 ## Development
 
-The *React* framework were developed with [Webpack-dev-server](https://github.com/webpack/webpack-dev-server) boiler-plate.
+The *React* front-end were developed using [Webpack-dev-server](https://github.com/webpack/webpack-dev-server) boiler-plate,
+and compiled using the [Babel-compiler](https://babeljs.io/docs/en/babel-preset-react) for React.
 
 #### This project includes but is not limited to the following:
 
