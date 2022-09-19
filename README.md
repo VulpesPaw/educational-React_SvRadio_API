@@ -52,3 +52,6 @@ Top part of mainpage showing a set of radio channels.
 
 This project was built for documentation and educational purposes
 
+
+#### Imprint Attribution
+Typeface: »Vollkorn« by Friedrich Althausen, [vollkorn-typeface.com](http://www.vollkorn-typeface.com)
